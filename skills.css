@@ -1,0 +1,116 @@
+body{
+            background-image: url(skills.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+        }
+        .left{
+            font-size: 35px; 
+            color: white;
+            padding-right: 1000px;
+        }
+       
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            
+        }
+        nav ul li a:hover{
+           color: rgb(124, 124, 206);
+           font-size: 1.04rem;
+        }
+        section{
+            text-align: center;
+            margin: 100px;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: black;
+        }
+        .a{
+            font-weight: 50px;
+            color: rgb(226, 204, 5);
+            font-size: 20px;
+        }
+        .b{
+            font-size: 15px;
+            color: gray;
+        }
+        .c{
+            font-size: 30px;
+            margin-top: 15px;
+            color: white;
+            text-decoration: underline;
+        }
+        img:hover{
+            width: 120px;
+        }
+        
+        img{
+            width: 90px;
+            margin: 30px;
+            background-color: rgb(19, 18, 18);
+            box-shadow: 8px 8px 5px  rgb(226, 204, 5);
+        }
+        footer{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: #13132b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p:nth-child(1){
+        font-size: 30px;
+        color: white;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    footer p:nth-child(2){
+        color: white;
+        font-size: 17px;
+        width: 500px;
+        text-align: center;
+        line-height: 26px;
+    }
+    .social{
+        display: flex;
+    }
+    .social a{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f9004d;
+        border-radius: 50%;
+        margin: 22px 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .social a:hover{
+        transform: scale(1.3);
+        transition: .3s;
+    }
+    .end{
+        position: absolute;
+        color: #f9004d;
+        bottom: 35px;
+        font-size: 14px;
+
+    }
+
+        @media screen and (max-width: 1350px) {
+            nav{
+                flex-direction: column;
+            }
+            
+        }
